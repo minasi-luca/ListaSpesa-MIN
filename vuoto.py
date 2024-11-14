@@ -20,3 +20,8 @@ def Rimuovi_Prodotto(lista):
 
 Rimuovi_Prodotto(lista)
 Stampa_Lista(lista)
+
+while True:
+    scelta=input("scegli cosa vuoi fare. (aggiungi , rimuovi , stampa, esci):/n 1. Aggiungi/n 2. rimuovi/n 3. stampa/n 4. esci")
+    if scelta == "1":
+        Aggiungi_Lista(lista)
